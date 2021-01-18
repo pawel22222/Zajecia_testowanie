@@ -6,5 +6,8 @@ public class Zadanie1 {
     public static void main(String[] args) {
 //poczatek projektu
     }
+
+    public Zadanie1() {
+    }
     
 }
