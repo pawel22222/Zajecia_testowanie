@@ -17,5 +17,5 @@ public class Testowanie {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    123
+   
 }
