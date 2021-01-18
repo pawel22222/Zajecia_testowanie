@@ -6,6 +6,7 @@ public class Zadanie1 {
 
     public static void main(String[] args) {
         int ile = 0;
+        int xd = 10;
         String c;
         File plik = new File("tekst.txt");
 
