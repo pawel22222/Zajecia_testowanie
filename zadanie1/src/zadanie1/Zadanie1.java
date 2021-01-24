@@ -22,15 +22,15 @@ public class Zadanie1 {
         }
         System.out.println(text);
 
-        System.out.println(ileSlow(text));
+        System.out.println(ileSlow(text, ' '));
     }
 
-    public static int ileSlow(String tekst) {
+    public static int ileSlow(String tekst, char separator) {
         int ile_slow = 0;
         char znak_z_napisu;
         for (int i = 0; i < tekst.length(); i++) {
             znak_z_napisu = tekst.charAt(i);
-            if (znak_z_napisu == ' ') {
+            if (znak_z_napisu == separator) {
                 ile_slow++;
             }
         }
