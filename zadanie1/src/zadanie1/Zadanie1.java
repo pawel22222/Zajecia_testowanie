@@ -16,13 +16,14 @@ public class Zadanie1 {
 //        System.out.println(abPath);
         Scanner sc = new Scanner(plik);
 
-        String text = "";
+        String text_z_pliku = "";
         while (sc.hasNext()) {
-            text = text + sc.nextLine() + " ";
+            text_z_pliku = text_z_pliku + sc.nextLine() + ' ';
         }
-        System.out.println(text);
+        System.out.println("DANE Z PLIKU: ");
+        System.out.println(text_z_pliku);
+        System.out.println(ileSlow(text_z_pliku, ' '));
 
-        System.out.println(ileSlow(text, ' '));
     }
 
     public static int ileSlow(String tekst, char separator) {
